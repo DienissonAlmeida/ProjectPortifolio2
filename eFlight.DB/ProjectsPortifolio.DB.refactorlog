@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="fe12d1f0-f2e5-468f-acd4-3ab78515dc3a" ChangeDateTime="03/14/2020 17:28:35">
+    <Property Name="ElementName" Value="[dbo].[Projects].[City]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e68178c5-1201-4125-aeb3-b29a9a0a4d27" ChangeDateTime="03/14/2020 17:29:35">
+    <Property Name="ElementName" Value="[dbo].[Projects].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StartDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a4b0ab2d-94e4-4ab3-b989-8425547203fb" ChangeDateTime="03/14/2020 17:29:47">
+    <Property Name="ElementName" Value="[dbo].[Projects].[Stars]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Projects]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ResponsibleManager" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4f2911e4-32fe-429a-bb55-a5a04069cfc7" ChangeDateTime="03/14/2020 20:22:05">
+    <Property Name="ElementName" Value="[dbo].[Project].[ManagerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Project]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PersonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3cc669e8-ed9a-4339-b01b-0cf690efb370" ChangeDateTime="03/14/2020 20:52:51">
+    <Property Name="ElementName" Value="[dbo].[Person].[nome]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="15fea72b-ea88-4f05-885c-e1352da2abd9" ChangeDateTime="03/14/2020 20:53:00">
+    <Property Name="ElementName" Value="[dbo].[Person].[datanascimento]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DayOfBirth" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a41c2c82-e10a-43e7-b07a-387fa7a53c4e" ChangeDateTime="03/14/2020 20:53:55">
+    <Property Name="ElementName" Value="[dbo].[Person].[funcionario]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Employee" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e35e6d36-f16b-4e61-840c-8cfd6268f933" ChangeDateTime="03/14/2020 23:04:03">
+    <Property Name="ElementName" Value="[dbo].[Person].[cpf]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cpf" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d58bc466-e47d-411d-addc-bf2b5665840b" ChangeDateTime="03/14/2020 23:28:17">
+    <Property Name="ElementName" Value="[dbo].[Person].[DayOfBirth]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Person]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateOfBirth" />
+  </Operation>
+</Operations>
