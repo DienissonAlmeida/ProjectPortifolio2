@@ -15,10 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eFlight.Application\ProjectsPortifolio.Application.csproj" />
-    <ProjectReference Include="..\eFlight.Infra.Data\ProjectsPortifolio.Infra.Data.csproj" />
-    <ProjectReference Include="..\eFlight.Infra\ProjectsPortifolio.Infra.csproj" />
-    <ProjectReference Include="..\eFlight.Tests.Common\ProjectsPortifolio.Tests.Common.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.Application\ProjectsPortifolio.Application.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.Infra.Data\ProjectsPortifolio.Infra.Data.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.Infra\ProjectsPortifolio.Infra.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.Tests.Common\ProjectsPortifolio.Tests.Common.csproj" />
   </ItemGroup>
 
 </Project>

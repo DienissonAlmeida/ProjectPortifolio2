@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\eFlight.API\ProjectsPortifolio.API.csproj" />
-    <ProjectReference Include="..\eFlight.Tests.Common\ProjectsPortifolio.Tests.Common.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.API\ProjectsPortifolio.API.csproj" />
+    <ProjectReference Include="..\ProjectsPortifolio.Tests.Common\ProjectsPortifolio.Tests.Common.csproj" />
   </ItemGroup>
 
 </Project>
